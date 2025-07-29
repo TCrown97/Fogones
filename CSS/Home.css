@@ -1,0 +1,110 @@
+
+body{
+    height: auto;
+}
+
+#hometitle{
+    border-bottom: 3px solid gray;
+}
+
+.wallpaper{
+    background: #e5095c url(https://lh3.googleusercontent.com/pw/AP1GczPajNVJf7tEuPvb1Bp9dxEDMXvFaWoDbagZTJC5W-BDLhHJNPpIUzUZ5RWa_sdVTLLO28cVryKX9i0LH3dyVHrX0P9R-eFb3sgOMUXaUaDN5PvP1g6_r6KhEBFEAKn-Dj9_g4lOEKTMhj4lkWyOHR-AaA=w1388-h926-s-no-gm?authuser=0) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.glass{
+    width: 780px;
+    background: rgba(51, 66, 102, 0.35);
+    border-radius: 20px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding-block: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.glass p{
+    font-family: 'kurale';
+}
+
+.imagen3{
+    width: 70%;
+    height: 600px;
+    border-radius: 30px;
+    background: #e5095c url(https://lh3.googleusercontent.com/pw/AP1GczP5aUbGLNOaf6pQ_BwYvTiC9z2K3AjVEOBf1ri0kGJ5rNX_Q80zVEa-RetQkW-1pGIFewkXsHxW4H3O2X8n-e7hQjMyKKJ0xXtXFCjxhcx9_9HRVbZ9BUTiqzDqONB5erV7h4plVgdfbalDfuQoulpX5g=w1387-h926-s-no-gm?authuser=0) no-repeat center;
+    background-size: cover;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.experience{
+    background: #e5095c url(https://lh3.googleusercontent.com/pw/AP1GczMKdxiaNcSswsmmcfbbnznd42QMiHaCrUTBEgtVZPXLyhTU3PgeeQHzCeKSNwDLcIUVnjxYmZRjN9G4MII01LNYlld69qE5vvoBtESm4TpirkPiPQ0juUXajXEJcTZ0ANpa-gS8WapwgUfKEeP5fwdzqA=w1436-h926-s-no-gm?authuser=0) no-repeat center;
+    background-size: cover;
+}
+
+.cardcontainer{
+    display: flex;
+    gap: 50px;
+}
+
+.card{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 20px;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding-top: 80px;
+}
+
+.card h3, .card li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card ul{
+    padding-inline: 50px;
+    text-align: start;
+}
+
+.card h3{
+    font-size: large;
+}
+
+.card h1{
+    font-weight: bolder;
+}
+
+.contactos{
+    display: flex;
+    gap: 40px;
+}
+
+.map{
+    filter: drop-shadow(-2px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+ion-icon {
+    font-size: 35px;
+    padding-inline: 8px;
+    color: black;
+    filter: drop-shadow(-2px 4px 10px rgba(0, 0, 0, 0.25));
+}

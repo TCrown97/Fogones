@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@font-face {
+    font-family: 'kurale';
+    src: url(/CSS/Font/Kurale-Regular.ttf);
+}
+
+/* --------- functions --------- */
+
+.toggle{
+    display: flex !important;
+    opacity: 1;
+    transition: display .2s, opacity .2s;
+    transition-behavior: allow-discrete;
+    transition-timing-function: ease-in-out;
+    @starting-style{
+        opacity: 0;
+    }
+}
+
+.show{
+    display: flex !important;
+}
+
+/* --------- Constant --------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root{
+    background-color: #e5095c;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav .menu a:hover{
+    border-bottom: 3px solid #e5095c !important;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 66, 102, 0.7);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav>a>img{
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 5px;
+    padding-inline: 10px;
+}
+
+nav li{
+    display: flex;
+}
+
+#use{
+    display: flex;
+    gap: 30px;
+}
+
+.menulanguaje{
+    padding-right: 20px;
+}
+
+.menulanguaje li{
+    padding-inline: 10px;
+}
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px 16px;
+    background-color: #e5095c;
+    border-radius: 10px;
+    filter: drop-shadow(-2px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.limiter{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-block: 50px;
+    gap: 40px;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.white p, .white h1{
+    color: black;
+}
+
+.limiter h1{
+    font-size: xx-large;
+}
+
+p>span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}

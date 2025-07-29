@@ -1,0 +1,134 @@
+body{
+    height: auto;
+}
+
+#cooksflavorstitle{
+    border-bottom: 3px solid gray;
+}
+
+#map path:hover{
+    fill: #a80f4a;
+}
+
+.mapwallpaper{
+    padding-top: 50px;
+    background: white url() no-repeat center;
+}
+
+.mapwallpaper h1{
+    color: black;
+}
+
+#territorio{
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 200px;
+    right: 80px;
+    padding: 30px;
+}
+
+#nombre{
+    font-size: xx-large;
+    color: white;
+}
+
+#platillo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#imagenes{
+    font-size: larger;
+    color: crimson;
+}
+
+.tradicionalsection{
+    color: black;
+    background: white;
+}
+
+.cocinera{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    margin-top: 100px;
+}
+
+.cocinera p{
+    padding: 30px;
+}
+
+.cocinera svg{
+    filter: drop-shadow(-5px 5px 8px rgba(0, 0, 0, 0.2));
+}
+
+.number1{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: green;
+    color: white;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 50% 50% 0 0;
+}
+
+.icontradicional1{
+    position: absolute;
+    bottom: 100px;
+}
+
+.number2{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: white;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 50% 50% 0 0;
+}
+
+.icontradicional2{
+    position: absolute;
+    bottom: 160px;
+}
+
+.number3{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: Crimson;
+    color: white;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 50% 50% 0 0;
+}
+
+.icontradicional3{
+    position: absolute;
+    bottom: 160px;
+}
+
+.tradicionalsection ul{
+    text-align: start;
+}
+
+.tradicionalsection p{
+    font-family: Arial, Helvetica, sans-serif;
+}

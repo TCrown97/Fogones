@@ -1,0 +1,11 @@
+body{
+    height: auto;
+}
+
+#collaboratorstitle{
+    border-bottom: 3px solid gray;
+}
+
+nav + section{
+    padding-top: 50px;
+}
